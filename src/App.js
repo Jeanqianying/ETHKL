@@ -7,6 +7,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={< Board/>} /> 
+        <Route path="/test" element={< Board/>} /> 
       </Routes>
     </Router>
   );
